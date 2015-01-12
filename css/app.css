@@ -1,0 +1,267 @@
+/*
+=============================================
+:::::::::: CUSTOM STYLES by @jspwcr :::::::::
+============================================*/
+
+
+/* Global
+============================================*/
+
+.icon {
+  color: #00c6ff;
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.icon-small  { font-size: 48px; }
+.icon-medium { font-size: 60px; }
+.icon-large  { font-size: 72px; }
+
+.bump-xs     { margin-top: 15px; }
+.bump-small  { margin-top: 30px; }
+.bump-medium { margin-top: 50px; }
+.bump-large  { margin-top: 70px; }
+.bump-xl     { margin-top: 90px; }
+
+hr.dotted {
+  border-color: #ddd;
+  border-style: dashed;
+}
+
+.cta a { margin-bottom: 0; }
+
+.space-out { margin: 0 .6em; }
+
+
+
+/* Type
+============================================*/
+
+p {
+	line-height: 1.7;
+	font-weight: 200;
+}
+
+strong { color: #5f5d60; }
+
+
+
+/* Top Bar
+============================================*/
+
+.contain-to-grid { background: #fff; }
+
+.top-bar {
+	min-height: 80px;
+	padding-top: 20px;
+	background: transparent;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
+}
+.top-bar p {
+  font-size: .75em;
+  text-transform: uppercase;
+	line-height: inherit;
+  letter-spacing: 0.1em;
+}
+
+.top-bar a { color: #b3aeb5; }
+.top-bar a:hover { color: #5f5d60; }
+
+.logo {
+	font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+/* Hero Banner
+============================================*/
+
+.hero {
+  background: #0072ff; /* #00c6ff */
+  padding-top: 120px;
+  padding-bottom: 110px;
+}
+.hero h1 {
+  color: #fff;
+  margin-top: 0;
+}
+.hero .subheader {
+  color: rgba(255,255,255,0.75) !important;
+  margin-bottom: 50px;
+}
+
+
+
+/* Layout
+============================================*/
+
+.benefits,
+.users,
+.signup,
+.social-proof {
+  padding-top: 81px;
+  padding-bottom: 70px;
+}
+
+
+
+/* Users
+============================================*/
+
+.users { background: #f9f9f9 }
+
+
+
+/* Social Proof
+============================================*/
+
+.social-proof .testimonial>img {
+  border-radius: 100%;
+  margin: 0 auto 1.25em;
+  width: 95px;
+}
+.social-proof p {
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 12px;
+}
+.social-proof blockquote {
+  border-left: 0;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.5em;
+  margin: 2em auto 20px;
+}
+.social-proof blockquote:before {
+  content: "";
+  width: 80px;
+  height: 1px;
+  background: #d5d5d5;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -22px;
+}
+
+
+
+/* Signup
+============================================*/
+
+.signup {
+  background: #414345;            
+}
+
+.signup form {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.signup input[type="text"],
+.signup input[type="email"] {
+  height: 50px;
+  background: #fff;
+  border: none;
+  padding-left: 20px;
+  font-size: 1.0625em;
+  box-shadow: none; 
+  float: left !important
+}
+.signup input[type="text"]{
+  border-right: #ddd 1px solid;
+  border-radius: 3px 0 0 3px;
+}
+.signup input[type="email"] {
+  border-radius: 0;
+}
+
+.signup button {
+  height: 50px;
+  background: #e2e2e2;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  box-shadow: none;
+  color: #333;
+  font-size: 1.0625em;
+}
+.signup button:hover { 
+  background: #d7d7d7;
+  color: #555;
+}
+
+.signup p {
+  color: rgba(255, 255, 255, .5);
+  font-size: 14px;
+}
+
+
+
+/* Footer
+============================================*/
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.footer p {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+}
+.footer p+p {
+  text-transform: none;
+}
+.footer p a { border-bottom: 1px solid #ddd; }
+.footer p a:hover { border-color: #aaa; }
+
+.footer .social {
+  display: table;
+  border-top: none;
+  border-bottom: none;
+  padding: 0;
+  margin: 20px auto 0 auto;
+  overflow: hidden;
+  list-style: none;
+}
+.footer .social li {
+  float: left !important;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+.footer .social li a {
+  font-size: 1.8em;
+}
+  
+.footer a { color: #a6afb2; }
+
+
+
+/* Media Queries
+============================================*/
+
+@media only screen and (max-width: 640px) {
+  .top-bar span {
+    display: none;
+  }
+  
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 55px;
+  }
+  
+  .benefits,
+  .users,
+  .signup,
+  .social-proof {
+    padding-top: 51px;
+    padding-bottom: 40px;
+  }
+  
+  .signup button,
+  .signup input[type="text"],
+  .signup input[type="email"] { border-radius: 3px; }
+}

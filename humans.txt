@@ -1,0 +1,1 @@
+Bold Theme was made by Joseph Wachira using ZURB's Foundation frontend framework. It is updated regularly, and uses current HTML5 and CSS3 Standards. If you'd like to get in touch, holla me on Twitter @jspwcr
